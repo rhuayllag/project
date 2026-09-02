@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Redes y Comuniaciones</title>
+    <link rel="stylesheet" href="css/principalstyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="css/images/Logo-sin.png" alt="Logo Empresarial">
+                <img src="css/images/Banner-sin.png" alt="Banner Empresarial" class="banner">
+            </div>
+
+            <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#main-banner" class="active">Inicio</a></li>
+                    <li><a href="#featured-section">Perfil</a></li>
+                    <li><a href="#properties-section">Modulos</a></li>
+                    <li><a href="#deal-section">Desempeño</a></li>
+                    <li><a href="#servicios-section">Malla</a></li>
+                    <li><a href="AulaVirtual/login.php" class="schedule-btn">AulaVirtual</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="main-banner">
+        <!-- Slideshow Container -->
+        <div class="slideshow-container">
+            <div class="slide active" style="background-image: url('css/images/banner1.png');"></div>
+            <div class="slide" style="background-image: url('css/images/banner2.jpg');"></div>
+            <div class="slide" style="background-image: url('css/images/banner3.jpg');"></div>
+            <div class="slide" style="background-image: url('css/images/banner4.jpg');"></div>
+        </div>
+
+        <div class="container">
+            <div class="banner-content">
+                <span class="category">Arequipa, Perú</span>
+                <h2>ADMINISTRACIÓN<br>DE REDES Y<br>COMUNICACIONES</h2>
+            </div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators">
+            <div class="indicator active" data-slide="0"></div>
+            <div class="indicator" data-slide="1"></div>
+            <div class="indicator" data-slide="2"></div>
+            <div class="indicator" data-slide="3"></div>
+        </div>
+    </section>
+
+    <section id="featured-section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Perfil Profesional</h2>
+            </div>
+            
+            <div class="professional-profile">
+                <div class="profile-content">
+                    <div class="profile-text">
+                        <p>
+                            El profesional técnico en Administración de Redes y Comunicaciones, atiende incidencias y
+                            monitorea acciones a nivel operativo del Centro de Procesamiento de Datos, realiza la
+                            puesta en producción de Sistemas de Información o servicios de Tecnologías de Información
+                            e implementa, configura y administra la infraestructura de redes y servicios de
+                            comunicaciones, asimismo establece la seguridad en el acceso a los servicios de redes y
+                            comunicaciones, de acuerdo a las buenas prácticas, planificación, necesidades del negocio,
+                            estándares y políticas de seguridad.
+                        </p>
+                        <p>
+                            Demostrando responsabilidad y ética profesional,
+                            visión y perspectiva empresarial que permita identificar oportunidades empresariales con
+                            liderazgo, integrándose al entorno laboral mediante una comunicación asertiva, utilizando
+                            como soporte, las tecnologías de información, el inglés y la cultura física deportiva,
+                            buscando alternativas de solución a problemas en un proceso de mejora continua.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="profile-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Seguridad en Redes</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-server"></i>
+                        <span>Administración de Datos</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-wifi"></i>
+                        <span>Infraestructura de Comunicaciones</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-cogs"></i>
+                        <span>Soporte Técnico Especializado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================================================== -->
+    <!-- MODULES SECTION - CARRUSEL DE UN SOLO MÓDULO REVISADO -->
+    <!-- ================================================================================================== -->
+    <section id="properties-section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Módulos o Especialidades</h2>
+            </div>
+            
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <div class="properties-grid" id="carousel-track">
+                        <!-- Módulo 1 REVISADO -->
+                        <div class="module-card active">
+                            <div class="module-header">
+                                <div class="module-number">1</div>
+                                <div class="module-title">
+                                    <h4>Soporte técnico de las Tecnologías de la información</h4>
+                                    <span>Fundamentos de TI y sistemas operativos</span>
+                                </div>
+                            </div>
+                            <div class="module-content">
+                                <div class="module-main-content">
+                                    <div class="module-image">
+                                        <img src="css/images/modulo-soporte.png" alt="Soporte Técnico TI">
+                                    </div>
+                                    <div class="module-info-container">
+                                        <div class="module-info">
+                                            <p class="module-description">
+                                                En este módulo los estudiantes se capacitan para realizar <strong>soporte técnico</strong> que comprende mantenimiento preventivo y correctivo a los equipos computacionales, instalación de sistemas operativos y software en general, manejo de diversas tecnologías de la información para el trabajo en oficina y en internet, trabajo remoto. <br><br>
+                                                Administrar los sistemas operativos como <strong>Windows y Linux</strong>, desde una computadora de usuario a servidores. Desarrollar competencias en virtualización, cloud computing y gestión de servicios TI.
+                                            </p>
+                                        </div>
+                                        
+                                        <!-- Habilidades dentro del contenedor de información -->
+                                        <div class="module-skills">
+                                            <div class="skill-item">
+                                                <i class="fas fa-tools"></i>
+                                                <span>Soporte Técnico</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-desktop"></i>
+                                                <span>Sistemas Operativos</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-cloud"></i>
+                                                <span>Virtualización</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-cogs"></i>
+                                                <span>Mantenimiento</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Módulo 2 REVISADO -->
+                        <div class="module-card">
+                            <div class="module-header">
+                                <div class="module-number">2</div>
+                                <div class="module-title">
+                                    <h4>Implementación de redes y servicios de información</h4>
+                                    <span>Redes, desarrollo web y programación</span>
+                                </div>
+                            </div>
+                            <div class="module-content">
+                                <div class="module-main-content">
+                                    <div class="module-image">
+                                        <img src="css/images/modulo-redes.png" alt="Implementación de Redes">
+                                    </div>
+                                    <div class="module-info-container">
+                                        <div class="module-info">
+                                            <p class="module-description">
+                                                Este módulo está preparado para que el alumno logre <strong>diseñar e implementar una red de computadoras</strong>, es decir, a interconectar las computadoras utilizando tecnología de cableado estructurado. Administrar a nivel profesional y especializado los sistemas operativos, de forma que puedan integrar las redes de computadoras. <br><br>
+                                                <strong>Desarrollar aplicaciones WEB y móviles</strong>, programación de computadoras y apps para celulares, para administrar los recursos de internet de forma apropiada. Implementar servicios de red como DNS, DHCP, FTP y servidores web.
+                                            </p>
+                                        </div>
+                                        
+                                        <!-- Habilidades dentro del contenedor de información -->
+                                        <div class="module-skills">
+                                            <div class="skill-item">
+                                                <i class="fas fa-network-wired"></i>
+                                                <span>Redes de Computadoras</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-code"></i>
+                                                <span>Desarrollo Web</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-server"></i>
+                                                <span>Servicios de Red</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-mobile-alt"></i>
+                                                <span>Apps Móviles</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Módulo 3 REVISADO -->
+                        <div class="module-card">
+                            <div class="module-header">
+                                <div class="module-number">3</div>
+                                <div class="module-title">
+                                    <h4>Administración de redes y gestión de la seguridad</h4>
+                                    <span>Ciberseguridad y hacking ético</span>
+                                </div>
+                            </div>
+                            <div class="module-content">
+                                <div class="module-main-content">
+                                    <div class="module-image">
+                                        <img src="css/images/modulo-seguridad.png" alt="Administración de Redes y Seguridad">
+                                    </div>
+                                    <div class="module-info-container">
+                                        <div class="module-info">
+                                            <p class="module-description">
+                                                Este módulo está preparado para que el alumno logre <strong>implementar y administrar redes a nivel industrial</strong>, para grandes empresas donde es importante considerar la seguridad de las redes y de la información. Dominar el <strong>Hacking Ético</strong>, que implica utilizar diversos programas y sistemas operativos para analizar vulnerabilidades en dispositivos. <br><br>
+                                                Aplicar la <strong>Ciberseguridad</strong> y la informática forense, realizar pericias informáticas, investigar y descubrir delitos informáticos. Integrar los dispositivos electrónicos del hogar y del trabajo a través del internet de las cosas (IoT).
+                                            </p>
+                                        </div>
+                                        
+                                        <!-- Habilidades dentro del contenedor de información -->
+                                        <div class="module-skills">
+                                            <div class="skill-item">
+                                                <i class="fas fa-shield-alt"></i>
+                                                <span>Ciberseguridad</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-user-secret"></i>
+                                                <span>Hacking Ético</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-search"></i>
+                                                <span>Informática Forense</span>
+                                            </div>
+                                            <div class="skill-item">
+                                                <i class="fas fa-plug"></i>
+                                                <span>Internet de las Cosas</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles de navegación -->
+                <button class="carousel-controls prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-controls next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Indicadores y timer -->
+            <div class="carousel-indicators" id="indicators"></div>
+            <div class="timer-container">
+                <div class="timer-progress"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicio Destacado Section -->
+    <section id="deal-section">
+        <div class="container">
+            <div class="row equal-height">
+                <div class="deal-left">
+                    <div class="section-heading">
+                        <h2>Áreas de Desempeño Profesional</h2><br>
+                        <p>Ámbitos Laborales de Nuestros Egresados</p>
+                    </div>
+                    
+                    <div class="performance-areas-wrapper">
+                        <div class="performance-areas">
+                            <div class="area-item">
+                                <div class="area-number">1</div>
+                                <div class="area-content">
+                                    <h3>Área de Informática</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">2</div>
+                                <div class="area-content">
+                                    <h3>Área de Soporte y Mantenimiento en Tecnologias de la Información</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">3</div>
+                                <div class="area-content">
+                                    <h3>Área de Redes y Comunicaciones</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">4</div>
+                                <div class="area-content">
+                                    <h3>Área de Servicios de Comunicaciones y Tecnologias de la Información</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">5</div>
+                                <div class="area-content">
+                                    <h3>Área de Seguridad y Ciberseguridad de la Información</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">6</div>
+                                <div class="area-content">
+                                    <h3>Área de Peritaje Informático Forense</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="area-item">
+                                <div class="area-number">7</div>
+                                <div class="area-content">
+                                    <h3>Área de Auditoría Informática</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="deal-right">
+                    <div class="deal-content">
+                        <div class="deal-image">
+                            <img src="css/images/Hospital-Honorio.jpg" alt="Honorio Delgado Espinoza">
+                            <div class="deal-badge">
+                                <span>EMPRESA <em> | DESEMPEÑO</em></span>
+                            </div>
+                        </div>
+                        <div class="deal-text">
+                            <span class="small-title">Profesional técnico de Administración de redes y comunicaciones</span>
+                            <h4>Lugares Donde Trabajar: </h4>
+                            <p>Empresas industriales, municipios, bancos, empresas de telecomunicaciones como movistar, claro, empresas mineras, consultorías, empresas propias y muchos más.</p>
+                            <br>
+                            <h4>Dúracion:</h4>
+                            <p>Seis semestres equivalentes a tres años académicos.</p>
+                            <br>
+                            <h4>Título:</h4>
+                            <p>Profesional Técnico en Administración de Redes y Comunicaciones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================================================== -->
+    <!-- MALLA CURRICULAR - SECTION -->
+    <!-- ================================================================================================== -->
+    <section id="servicios-section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Malla Curricular de Administración de Redes y Comunicaciones</h2>
+            </div>
+            
+            <div class="malla-image-wrapper">
+                <img src="css/images/malla-sin-fondo.png" alt="Malla Curricular de Administración de Redes y Comunicaciones" class="malla-curricular-image">
+            </div>       
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="mapa-google">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1583.7425041644447!2d-71.54899262750607!3d-16.38812522833276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a6a0172d35d%3A0xebeb3b98aa2420d9!2sI.E.E.%20Honorio%20Delgado%20Espinoza!5e0!3m2!1ses!2spe!4v1768926486031!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <img src="css/images/Logo-sin.png" alt="Logo">
+                        <h3>Administración de Redes y Comunicaciones</h3>
+                    </div>
+                    <p class="footer-description">Formando profesionales técnicos especializados en redes y comunicaciones para el mundo digital.</p>
+                    
+                    <ul class="contact-info">
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <span>Teléfono</span>
+                                <h5>+51 944 074 981</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <span>Email</span>
+                                <h5>administracion@gmail.com</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <span>Dirección</span>
+                                <h5>C. los Arces 202, Arequipa, Perú</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#main-banner"><i class="fas fa-home"></i> Inicio</a></li>
+                        <li><a href="#featured-section"><i class="fas fa-user-tie"></i> Perfil</a></li>
+                        <li><a href="#properties-section"><i class="fas fa-book"></i> Módulos</a></li>
+                        <li><a href="#deal-section"><i class="fas fa-briefcase"></i> Desempeño</a></li>
+                        <li><a href="#servicios-section"><i class="fas fa-graduation-cap"></i> Malla</a></li>
+                        <li><a href="AulaVirtual/login.php"><i class="fas fa-laptop"></i> AulaVirtual</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <p>Conéctate con nosotros en redes sociales</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-icon youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                    
+                    <div class="newsletter">
+                        <h5>Boletín Informativo</h5>
+                        <p>Suscríbete para recibir novedades</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Tu correo electrónico" required>
+                            <button type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <div class="copyright-content">
+                    <p>© 2026 Honorio Delgado Espinoza. Todos los derechos reservados.</p>
+                    <p class="developer">Desarrollado por: <a href="#" target="_blank">Edgar Jamil Valdez Funes</a></p>
+                </div>
+                <div class="footer-legal">
+                    <a href="#">Pagina Oficial</a>
+                    <a href="#">Intranet</a>
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
