@@ -44,5 +44,5 @@ La carrera se organiza en 3 módulos o especialidades principales (duración tot
 ## 👨‍💻 Desarrollador
 
 * **Autor:** Roid Niro Huaylla Guzman
-* **Institución:** I.E.S. Honorio Delgado Espinoza
+* **Institución:** Universidad Nacional de San Agustin
 * **Ubicación:** Arequipa, Perú
