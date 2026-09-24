@@ -13,6 +13,6 @@ public class Main {
 
     @GetMapping("/")
     public String home() {
-        return "<h1>¡Hola desde Jenkins y Spring Boot!</h1><p>Aplicacion corriendo en el puerto 8083</p>";
+        return "<h1>🚀 Servidor Spring Boot activo</h1><p>Aplicación corriendo en el puerto 8083 desde Jenkins.</p>";
     }
 }
