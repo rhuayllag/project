@@ -24,8 +24,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <!-- Reemplaza com.ejemplo.Main por tu paquete y clase real -->
-                            <mainClass>com.ejemplo.Main</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
