@@ -1,0 +1,6 @@
+projectKey=laboratorio-ing-software
+serverUrl=http://localhost:9000
+serverVersion=26.9.0.129388
+dashboardUrl=http://localhost:9000/dashboard?id=laboratorio-ing-software
+ceTaskId=96e3c91b-c960-46da-a81c-b98c38a3ada4
+ceTaskUrl=http://localhost:9000/api/ce/task?id=96e3c91b-c960-46da-a81c-b98c38a3ada4
